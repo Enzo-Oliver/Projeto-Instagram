@@ -47,7 +47,7 @@ header {
 }
 
 #destaques figure img{
-    background-color: white;
+    background-color: red;
     border-radius: 100%;
     width: 100px;
     height: auto;
