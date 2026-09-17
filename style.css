@@ -1,0 +1,40 @@
+#conteudo{
+    width: 800px; 
+    height: 1000px;
+    background-color: khaki;  
+    margin: 0 auto; 
+}
+#cabecalho{
+    width: 800px;
+    height: 300px;
+    background-color: red;
+    display: flex;
+}
+#destaques{
+    height: 150px;
+    width: 800px;
+    background-color: blue;
+}
+#feed {
+    height: 90px;
+    width: 800px;
+    background-color: gold;
+}
+#fotodeperfil{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#textodeperfil{
+    width: 500px;
+    height: 300px;
+    background-color: aqua;
+}
+
+img{
+    border-radius: 100%;
+}
+
