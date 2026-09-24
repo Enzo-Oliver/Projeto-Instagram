@@ -1,16 +1,22 @@
+img{
+    object-fit: cover;
+    
+}
+
 #conteudo{
     width: 100%; 
-    height: 1500px;
-    background-color: aqua; 
+    height: 1000px;
+    background-color: white; 
     margin-top: 0; 
+    
 }
-#cabecalho{
+#cabecalho img{
     width: 100%;
     height: 300px;
     background-color: red;
     border-radius: 50px;
 }
-#fotoperfil{
+#fotoperfil img{
     width: 300px;
     height: 300px;
     background-color: rebeccapurple;
@@ -18,6 +24,8 @@
     align-items: center;
     justify-content: center;
     border-radius: 100%;
+    position: absolute;
+    top: 9px;
 }
 #informacoes{
     width: 100%;
@@ -27,31 +35,38 @@
     object-fit: contain;
     gap: 2px;
     justify-content: center;
+    
 }
-.texto{
+.texto {
     width: 500px;
     height: 250px;
     background-color: chartreuse;
     justify-content: center;
+    padding: 10px;
 }
 .texto1{
     width: 500px;
     height: 250px;
     background-color: gold;
+    padding: 10px;
+}
+.susgestoes{
+    background-color: aqua;
+    width: 500px;
+    height: 160px;
+}
+.juntinho{
+    margin: 0;
 }
 #destaques{
     width: 100%;
     height: 200px;
     background-color: green;
     display:flex ;
-
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space:nowrap;
-    object-fit: contain;
+    justify-content: center;
     img{
-        width: 150px;
-        height: 150px;
+        width: 130px;
+        height: 130px;
     }
 }
 .destaque{
@@ -75,7 +90,7 @@
     }  
 }
 #feed{
-    width: 100%;
+    width: 80%;
     height: 650px;
     background-color: white;
     display: flex;
@@ -83,6 +98,7 @@
     gap: 2px;
     row-gap: 2px;
     justify-content: center;
+    margin: 0 auto;
     img{
         width: 210px;
         height: 320px;
