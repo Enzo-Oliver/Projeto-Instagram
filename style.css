@@ -1,36 +1,54 @@
-img{
-    object-fit: cover;
-    
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
+
+img{
+    object-fit: cover; 
+}
+
+button {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 9px 18px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+button:hover{ opacity: 0.85; }
 
 #conteudo{
     width: 100%; 
     height: 1000px;
     background-color: white; 
-    margin-top: 0; 
-    
+    margin-top: 0;  
+    background-size: contain;
+}
+.gif{
+    width: 300px;
+    height: auto;
 }
 #cabecalho img{
     width: 100%;
     height: 300px;
-    background-color: red;
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 50px;
 }
 #fotoperfil img{
-    width: 300px;
-    height: 300px;
-    background-color: rebeccapurple;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 290px;
+    height: 290px;
     border-radius: 100%;
     position: absolute;
     top: 9px;
+    border: 4px solid rgba(0, 0, 0, 0.5);
+    
 }
 #informacoes{
     width: 100%;
     height: 250px;
-    background-color: blue;
+    background-color: white;
     display:flex ;
     object-fit: contain;
     gap: 2px;
@@ -38,22 +56,22 @@ img{
     
 }
 .texto {
-    width: 500px;
+    width: 400px;
     height: 250px;
-    background-color: chartreuse;
+    background-color: white;
     justify-content: center;
     padding: 10px;
 }
 .texto1{
-    width: 500px;
+    width: 400px;
     height: 250px;
-    background-color: gold;
+    background-color: white;
     padding: 10px;
+    margin-top: 30px;
 }
-.susgestoes{
-    background-color: aqua;
-    width: 500px;
-    height: 160px;
+
+.stat {
+    margin-right: 20px; 
 }
 .juntinho{
     margin: 0;
@@ -61,18 +79,20 @@ img{
 #destaques{
     width: 100%;
     height: 200px;
-    background-color: green;
+    background-color: white;
     display:flex ;
     justify-content: center;
+   
     img{
         width: 130px;
         height: 130px;
+         border: 4px solid rgba(0, 0, 0, 0.7);
     }
 }
 .destaque{
     width: 150px;
     height: 180px;
-    background-color: teal;
+    background-color: white;
     padding: 10px;
     display: flex;
     justify-content: center;
